@@ -12,14 +12,14 @@ http://localhost:3000/brands
 http://localhost:3000/brands   
 Body > Raw > JSON  
 {  
-  "brand_name": "Asus"   
+  "brand_name": "..."   
 }  
   
 [PUT]  
 http://localhost:3000/brands/:id   
 Body > Raw > JSON  
 {  
-  "brand_name": "Asus"   
+  "brand_name": "..."   
 }  
   
 [DELETE]  
@@ -32,18 +32,18 @@ http://localhost:3000/products
 http://localhost:3000/products   
 Body > Raw > JSON  
 {  
-  "product_name": "isi nama",  
-  "type": "isi tipe",  
-  "brand_id": masukan sesuai brand yang terdaftar  
+  "product_name": "...",  
+  "type": "...",  
+  "brand_id": Integer    
 }    
     
 [PUT]  
 http://localhost:3000/products/:id   
 Body > Raw > JSON  
 {  
-  "product_name": "isi nama",  
-  "type": "isi tipe",  
-  "brand_id": masukan sesuai brand yang terdaftar  
+  "product_name": "...",  
+  "type": "...",  
+  "brand_id": Integer     
 }    
    
 [DELETE]  
