@@ -2,7 +2,7 @@ MEMBUAT DATABASE & MIGRATIONS
 npx sequelize-cli db:create  
 npx sequelize-cli db:migrate  
 
-JALANKAN MENGUGNAKAN  
+JALANKAN MENGGUNAKAN  
 node app.js  
 
 PENGUJIAN PRODUCT BRAND  
