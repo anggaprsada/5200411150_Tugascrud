@@ -1,3 +1,9 @@
+npx sequelize-cli db:create  
+npx sequelize-cli migration:generate --name create-product-brands   
+npx sequelize-cli migration:generate --name create-product-catalogs   
+npx sequelize-cli db:migrate  
+
+
 jalankan menggunakan node app.js
 
 PENGUJIAN PRODUCT BRAND  
