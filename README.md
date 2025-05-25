@@ -9,13 +9,15 @@ PENGUJIAN PRODUCT BRAND
 [GET]  
 http://localhost:3000/brands  
 [POST]  
-http://localhost:3000/brands  
+http://localhost:3000/brands   
+Body > Raw > JSON  
 {  
   "brand_name": "Asus"   
 }  
   
 [PUT]  
-http://localhost:3000/brands/:id  
+http://localhost:3000/brands/:id   
+Body > Raw > JSON  
 {  
   "brand_name": "Asus"   
 }  
@@ -36,7 +38,8 @@ Body > Raw > JSON
 }    
     
 [PUT]  
-http://localhost:3000/products/:id  
+http://localhost:3000/products/:id   
+Body > Raw > JSON  
 {  
   "product_name": "isi nama",  
   "type": "isi tipe",  
