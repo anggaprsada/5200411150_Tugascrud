@@ -1,6 +1,6 @@
 jalankan menggunakan node app.js
 
-PENGUJIAN PRODUCT BRAND
+PENGUJIAN PRODUCT BRAND  
 GET  
 http://localhost:3000/brands  
 POST  
@@ -9,8 +9,8 @@ PUT
 http://localhost:3000/brands/id  
 DELETE  
 http://localhost:3000/brands/id  
-
-PENGUJIAN PRODUCT CATALOG
+  
+PENGUJIAN PRODUCT CATALOG  
 GET  
 http://localhost:3000/products   
 POST  
