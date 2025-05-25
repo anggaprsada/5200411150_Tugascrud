@@ -1,21 +1,21 @@
 jalankan menggunakan node app.js
 
 PENGUJIAN PRODUCT BRAND  
-GET  
+[GET]  
 http://localhost:3000/brands  
-POST  
+[POST]  
 http://localhost:3000/brands  
-PUT  
+[PUT]  
 http://localhost:3000/brands/id  
-DELETE  
+[DELETE]  
 http://localhost:3000/brands/id  
   
 PENGUJIAN PRODUCT CATALOG  
-GET  
+[GET]  
 http://localhost:3000/products   
-POST  
+[POST]  
 http://localhost:3000/products   
-PUT  
+[PUT]  
 http://localhost:3000/products/id  
-DELETE  
+[DELETE]  
 http://localhost:3000/products/id  
